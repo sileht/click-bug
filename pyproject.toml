@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cdt-20241128-152021-doo7d8vc"
+version = "0.1.0"
+description = ""
+authors = ["Mehdi ABAAKOUK <sileht@sileht.net>"]
+readme = "README.md"
+packages = [{include = "cdt"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
